@@ -5,7 +5,7 @@ from langchain.llms.base import LLM
 from typing import Any, List, Mapping, Optional
 
 # Set environment variables for OpenRouter API
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = "your openroutet api key"
 
 # Create a custom LLM class that uses LiteLLM with OpenRouter
 class LiteLLMOpenRouter(LLM):
